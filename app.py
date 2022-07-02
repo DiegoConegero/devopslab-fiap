@@ -9,7 +9,7 @@ csrf = CSRFProtect(app)
 def pagina_inicial():
     return "Oieeeeeeeeeeee Diegão V2"
 
-@app.route("/bug")
+@app.route('/bug')
 def bad():
     try:
         raise TypeError()
