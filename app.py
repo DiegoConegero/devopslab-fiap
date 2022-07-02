@@ -11,7 +11,7 @@ def pagina_inicial():
 
 @app.route("/bug")
 def bad():
-    try
+    try:
         raise TypeError()
     except TypeError as e:
         print(e)
